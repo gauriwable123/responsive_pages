@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWATI OPTICALS</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .wrapper
+        {
+            width: 80%;
+            min-height: 300px;
+            display: grid;
+            margin: auto;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: 250px 900px;
+            grid-gap: 10px;
+            grid-template-areas: "header header"
+                                 "body body";
+        }
+        .header
+        {
+          background-color: rgb(25, 143, 189);
+          grid-area: header;
+          text-align: center;
+        }
+        .header h1
+        {
+            color: white;
+            font-size: 70px;
+            padding: 10px;
+            font-family: 'Times New Roman', Times, serif;
+            text-shadow: 1.5px 1.5px 15px black;
+        }
+        .header h3{
+            color: rgb(2, 32, 2);
+            font-size: 25px;
+            padding: 10px;
+            
+        }
+        .header h2{
+            columns: black;
+            font-size: 30px;
+            padding: 10px;
+        }
+        .body
+        {
+            
+            grid-area: body;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: 400px 400px ;
+            grid-gap: 10px;
+            grid-template-areas: "box1 box2 "
+                                 "box3 box4 ";
+        }
+        
+        .box1
+        {
+            background-color:white;
+            grid-area: box1;
+            width: 70%;
+            min-height: 400px;
+            margin: 50px;
+            box-shadow: 20px 20px 10px gray;
+            border-radius: 10px;
+            border: 1px solid black;
+
+        }
+        
+        .box1 img
+        {
+           width: 95%;
+           min-height: 270px;
+           margin: 12px;
+        }
+        .box1 h3{
+            padding: 20px;
+            font-size: 40px;
+        }
+        .box2
+        {
+            background-color:white;
+            grid-area: box2;
+            width: 70%;
+            min-height: 400px;
+            margin: 50px;
+            box-shadow: 20px 20px 10px gray;
+            border-radius: 10px;
+            border: 1px solid black;
+        }
+        .box2 img
+        {
+           width: 90%;
+           min-height: 100px;
+           margin: 12px;
+        }
+        .box2 h3{
+           
+            font-size: 40px;
+            padding: 10px;
+        }
+        .box3
+        {
+            background-color:white;
+            grid-area: box3;
+            width: 70%;
+            min-height: 400px;
+            margin: 60px;
+            box-shadow: 20px 20px 10px gray;
+            border-radius: 10px;
+            border: 1px solid black;
+           
+        }
+        .box3 img
+        {
+           width: 95%;
+           min-height: 250px;
+           margin: 12px;
+        }
+        .box3 h3{
+            padding: 20px;
+            font-size: 40px;
+        }
+        .box4
+        {
+            background-color:white;
+            grid-area: box4;
+            width: 70%;
+            min-height: 400px;
+            margin: 60px;
+            box-shadow: 20px 20px 10px gray;
+            border-radius: 10px;
+            border: 1px solid black;
+        }
+        .box4 img
+        {
+           width: 95%;
+           min-height: 250px;
+           margin: 12px;
+        }
+        .box4 h3{
+            padding: 20px;
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+             <h1>Swati Opticals</h1>
+             <br>
+             <h3>Your vision,our priority</h3>
+             <h2>At post Rajur(Ganpati) Bajar galli</h2>
+        </div>
+        
+        <div class="body">
+           
+              <div class="box1">
+                <img src="imags/glasses-for-men.jpg" alt="">
+                <br>
+                <h3>Men's</h3>
+              </div>
+              <div class="box2">
+                <img src="imags/op2.jpg" alt="">
+                <h3>Women's</h3>
+              </div>
+              <div class="box3">
+                <img src="imags/op5.jpg" alt="">
+                <h3>Kid's</h3>
+              </div>
+              <div class="box4">
+                <img src="imags/op4.jpg" alt="">
+                <h3>Lenses & Accesories</h3>
+              </div>
+        </div>
+    </div>
+</body>
+</html>

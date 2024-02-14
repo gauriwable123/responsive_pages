@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+   
+   <style>
+    .box
+    {
+        width: 200px;
+     aspect-ratio: 1/1;
+     border: 1px solid black;
+     background-color: crimson;
+     animation-name:anni ;
+     animation-duration: 4s;
+     animation-delay: 2s;
+     animation-iteration-count: infinite;
+     position: relative;
+     animation-direction: alternate;
+     animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1),ease;
+    }
+    @keyframes anni{
+        0%
+        {
+            background-color: blueviolet;
+            border-radius: 10%;
+            left: 0;
+            right: 0;
+        }
+        25%
+        {
+            
+            background-color: green;
+            border-radius: 20%;
+            left: 200px;
+            right: 0;
+        }
+        50%
+        {
+            background-color: black;
+            border-radius: 30%;
+            left: 300px;
+            top: 300px;  
+        }
+        75%
+        {
+            background-color: red;
+            border-radius: 40%;
+            left: 300px;
+            top: 0;  
+        }
+        100%
+        {
+            background-color:blue;
+            border-radius: 50%;
+            left: 0;
+           
+        }
+    }
+   </style>
+</head>
+<body>
+    <div class="box">
+       
+    </div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box
+        {
+            width: 80%;
+            min-height: 200px;
+            border: 4px solid black;
+            margin: auto;
+            background-color: lightgoldenrodyellow;
+        }
+        .heading h2{
+            font-family: 'Courier New', Courier, monospace;
+            padding: 10px;
+            background-color: lightgreen;
+        }
+        .answer p{
+            padding: 10px;
+            text-align: justify;
+        }
+        .answer img{
+            width: 400px;
+            height: 300px;
+        }
+        @media print{
+             .box{
+                background: none;
+             }
+             .heading h2{
+                background: none;
+                color: red;
+                width: 90%;
+                margin:10px auto;
+                border: 3px solid black;
+                border-radius: 10px;
+                -webkit-border-radius:10px;
+                -moz-border-radius:10px;
+             }
+             .answer img {
+                display: none;
+             }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="heading">
+            <h2>what is css explain with example</h2>
+        </div>
+        <div class="answer">
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit aut explicabo ea voluptates soluta, in assumenda praesentium corporis! A repellendus nemo culpa voluptas, veniam, facilis excepturi, esse ducimus reprehenderit non eius assumenda officiis vero numquam! Facilis soluta recusandae rem hic nesciunt repellat magnam totam animi aliquid dicta accusamus ut unde, ducimus atque quos minima asperiores, corporis ex sed labore non incidunt, similique pariatur! Quasi, adipisci laborum fugiat repellendus atque saepe nam. Veritatis veniam laudantium mollitia. Voluptatum et delectus eos molestiae natus rem, ipsam rerum officia facilis ex ea ut? Omnis iste quibusdam magnam eaque quas? Cum eos accusantium ab ratione.
+                <img src="images/bp3.jpg" alt="">
+            </p>
+        </div>
+       
+        <div class="heading">
+            <h2>what is html explain with example</h2>
+        </div>
+        <div class="answer">
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit aut explicabo ea voluptates soluta, in assumenda praesentium corporis! A repellendus nemo culpa voluptas, veniam, facilis excepturi, esse ducimus reprehenderit non eius assumenda officiis vero numquam! Facilis soluta recusandae rem hic nesciunt repellat magnam totam animi aliquid dicta accusamus ut unde, ducimus atque quos minima asperiores, corporis ex sed labore non incidunt, similique pariatur! Quasi, adipisci laborum fugiat repellendus atque saepe nam. Veritatis veniam laudantium mollitia. Voluptatum et delectus eos molestiae natus rem, ipsam rerum officia facilis ex ea ut? Omnis iste quibusdam magnam eaque quas? Cum eos accusantium ab ratione.
+               
+            </p>
+        </div>
+        
+    </div>
+</body>
+</html>
